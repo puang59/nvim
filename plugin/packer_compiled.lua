@@ -134,6 +134,11 @@ _G.packer_plugins = {
     path = "/Users/puang59/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["gruvbox.nvim"] = {
+    loaded = true,
+    path = "/Users/puang59/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
+    url = "https://github.com/ellisonleao/gruvbox.nvim"
+  },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "/Users/puang59/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
@@ -237,6 +242,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/puang59/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["presence.nvim"] = {
+    loaded = true,
+    path = "/Users/puang59/.local/share/nvim/site/pack/packer/start/presence.nvim",
+    url = "https://github.com/andweeb/presence.nvim"
   },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,

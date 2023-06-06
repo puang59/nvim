@@ -108,9 +108,8 @@ return packer.startup(function(use)
 
 	-- discord presence
 	-- use({ "andweeb/presence.nvim", config = "require presence-config" })
-	-- use("andweeb/presence.nvim")
-	-- use("andweeb/presence.nvim")
-	--use("ellisonleao/gruvbox.nvim")
+	use("andweeb/presence.nvim")
+	use("ellisonleao/gruvbox.nvim")
 	-- use("tribela/vim-transparent")
 	use("bluz71/vim-moonfly-colors")
 	use({ "catppuccin/nvim", as = "catppuccin" })
