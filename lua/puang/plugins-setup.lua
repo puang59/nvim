@@ -131,13 +131,18 @@ return packer.startup(function(use)
 
 	use({ "CRAG666/code_runner.nvim", requires = "nvim-lua/plenary.nvim" })
 
-	use({
-		"s1n7ax/nvim-terminal",
-		config = function()
-			vim.o.hidden = true
-			require("nvim-terminal").setup()
-		end,
-	})
+	-- use({
+	-- 	"s1n7ax/nvim-terminal",
+	-- 	config = function()
+	-- 		vim.o.hidden = true
+	-- 		require("nvim-terminal").setup()
+	-- 	end,
+	-- })
+
+	use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+		require("toggleterm").setup()
+	end}
+
 	-- BufferLine
 	-- using packer.nvim
 	use({ "akinsho/bufferline.nvim", tag = "v3.*", requires = "nvim-tree/nvim-web-devicons" })

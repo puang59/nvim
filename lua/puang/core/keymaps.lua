@@ -35,6 +35,9 @@ keymap.set("n", "<leader>tp", ":tabp<CR>") --  go to previous tab
 -- Plugin Keybinds
 ----------------------
 
+-- toggleTerm
+keymap.set("n", "<leader>l", ":lua _LAZYGIT_TOGGLE()")
+
 -- vim-maximizer
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>") -- toggle split window maximization
 
