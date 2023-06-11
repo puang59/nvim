@@ -112,6 +112,7 @@ return packer.startup(function(use)
 	use("ellisonleao/gruvbox.nvim")
 	-- use("tribela/vim-transparent")
 	use("bluz71/vim-moonfly-colors")
+	use({ "projekt0n/github-nvim-theme" })
 	use({ "catppuccin/nvim", as = "catppuccin" })
 	use("navarasu/onedark.nvim")
 	use({ "decaycs/decay.nvim", as = "decay" })
@@ -139,9 +140,13 @@ return packer.startup(function(use)
 	-- 	end,
 	-- })
 
-	use {"akinsho/toggleterm.nvim", tag = '*', config = function()
-		require("toggleterm").setup()
-	end}
+	use({
+		"akinsho/toggleterm.nvim",
+		tag = "*",
+		config = function()
+			require("toggleterm").setup()
+		end,
+	})
 
 	-- BufferLine
 	-- using packer.nvim
