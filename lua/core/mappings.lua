@@ -43,7 +43,6 @@ M.general = {
     -- ["<leader>la"] = {":lua _LAZYGIT_TOGGLE()<CR>",  "Lazygit toggle"},
 
     ["<leader>gg"] = {":LazyGit<CR>", "Lazygit Toggle"},
-
     -- window management
     ["<leader>sh"] = {"<C-w>s", "Split horizontally"},
     ["<leader>sv"] = {"<C-w>v", "Split vertically"},
